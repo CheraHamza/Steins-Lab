@@ -1,0 +1,16 @@
+#myVbox {
+    -fx-background-color: white; /* Set background color */
+    -fx-background-radius: 15 15 15 15; /* Set border radius for top corners */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 0); /* Add drop shadow */
+}
+#addProduct{
+    -fx-background-color: #701A75;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+
+}
+#addProduct:hover{
+    -fx-background-color:#ffffff;  /* Change background color on hover */
+    -fx-text-fill: #701A75; /* Change text color on hover */
+
+}

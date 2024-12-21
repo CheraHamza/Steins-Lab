@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" style="-fx-background-color: #ffffff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 4, 0.5, 0, 1);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratory.AddPatientController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <TextField fx:id="nom" prefHeight="30.0" prefWidth="100.0" promptText="Nom" style="-fx-background-color: #ECECEC;" />
+                  <TextField fx:id="prenom" prefHeight="30.0" prefWidth="101.0" promptText="Prenom" style="-fx-background-color: #ECECEC;" />
+                  <ChoiceBox fx:id="sexe" prefHeight="30.0" prefWidth="91.0" style="-fx-background-color: #ECECEC;" value="Homme">
+                      <items>
+                         <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Homme" />
+                            <String fx:value="Femme" />
+                         </FXCollections>
+                      </items>
+                  </ChoiceBox>
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <DatePicker fx:id="date_nais" prefHeight="30.0" prefWidth="160.0" promptText="Date de naissance" style="-fx-background-color: #ECECEC;" />
+                  <TextField fx:id="tel" prefHeight="30.0" prefWidth="142.0" promptText="Telephone" style="-fx-background-color: #ECECEC;" />
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <TextField fx:id="email" prefHeight="30.0" prefWidth="161.0" promptText="E-mail" style="-fx-background-color: #ECECEC;" />
+                  <TextField fx:id="ville" prefHeight="30.0" prefWidth="110.0" promptText="Ville" style="-fx-background-color: #ECECEC;" />
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets top="30.0" />
+         </padding>
+      </VBox>
+   </children>
+</VBox>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefHeight="269.0" prefWidth="270.0" style="-fx-background-color: white;" stylesheets="@dialogStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratory.AddClientController">
+    <content>
+    <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="220.0" prefWidth="270.0" spacing="10" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="nom" promptText="Nom" />
+            <TextField fx:id="prenom" promptText="Prenom" />
+            <TextField fx:id="username" promptText="UserName" />
+            <TextField fx:id="password" promptText="Password" />
+             <ChoiceBox fx:id="type" prefHeight="23.0" prefWidth="176.0" value="doctor">
+                 <items>
+                     <FXCollections fx:factory="observableArrayList">
+                         <String fx:value="gerant" />
+                         <String fx:value="doctor" />
+                         <String fx:value="agent" />
+                         <String fx:value="biologiste" />
+
+                     </FXCollections>
+                 </items>
+             </ChoiceBox>
+         </children>
+    </VBox>
+    </content>
+   <header>
+      <Label style="-fx-font-size: 20; -fx-alignment: center; -fx-font-weight: bold;" text="Add Client" />
+   </header>
+</DialogPane>

@@ -1,0 +1,28 @@
+#myGridPane {
+    -fx-background-color: white; /* Set background color */
+    -fx-background-radius: 15 15 0 0; /* Set border radius for top corners */
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0); /* Add drop shadow effect */
+
+}
+.root{
+    -fx-background-color: white;
+}
+
+#addUser{
+    -fx-background-color: #701A75;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+
+}
+#addUser:hover{
+    -fx-background-color:#ffffff;  /* Change background color on hover */
+    -fx-text-fill: #701A75; /* Change text color on hover */
+    -fx-border-color: #701A75 ;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+
+
+}
+
+

@@ -1,0 +1,55 @@
+.root{
+    -fx-background-color: white;
+}
+
+
+
+.text-field {
+    -fx-background-color: #ECECEC; /* Set background color */
+    -fx-border-radius: 15px; /* Set border radius */
+    -fx-padding: 5px; /* Set padding */
+    -fx-font-size: 15px; /* Set font size */
+    -fx-text-fill: #333; /* Set text color */
+}
+
+
+
+
+.dialog-savebutton {
+    -fx-graphic: url("images/save.png");
+    -fx-background-color: #701A75;
+-fx-border-color: black;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-transition: background-color 0.3s, text-fill 0.3s; /* Smooth transition */
+
+}
+.dialog-savebutton:hover {
+    -fx-graphic: url("images/savemov.png");
+
+    -fx-background-color:#ffffff;  /* Change background color on hover */
+    -fx-text-fill: #701A75; /* Change text color on hover */
+
+
+
+
+}
+.dialog-cancelbutton {
+    -fx-graphic: url("images/Annuler.png");
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #AB0F00;
+    -fx-border-color: #AB0F00;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-transition: background-color 0.3s, text-fill 0.3s; /* Smooth transition */
+
+}
+.dialog-cancelbutton:hover {
+    -fx-graphic: url("images/Annulerwhite.png");
+
+    -fx-background-color: #AB0F00; /* Change background color on hover */
+    -fx-text-fill: #ffffff; /* Change text color on hover */
+}

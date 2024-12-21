@@ -1,0 +1,61 @@
+
+
+.button{
+    -fx-background-color: #701A75;
+    -fx-border-color: black;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-transition: background-color 0.3s, text-fill 0.3s; /* Smooth transition */
+}
+.button:hover{
+    -fx-background-color:#ffffff;  /* Change background color on hover */
+    -fx-text-fill: #701A75; /* Change text color on hover */
+
+}
+#myLabel1{
+    -fx-text-fill: #6E6E6E;
+    -fx-font-weight: 900;
+}
+#netGrid{
+    -fx-background-radius: 15;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 0); /* Add drop shadow */
+
+}
+#myGrid1{
+    -fx-background-radius: 10 10 0 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 0); /* Add drop shadow */
+
+
+}
+#myGrid2{
+    -fx-background-radius: 10 10 0 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 0); /* Add drop shadow */
+
+
+}
+#myGrid3{
+    -fx-background-radius: 10 10 0 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 0); /* Add drop shadow */
+
+}
+#myHbox1{
+    -fx-background-radius: 0 0 10 10;
+-fx-background-color: white;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5);
+
+}
+#myHbox2{
+    -fx-background-radius: 0 0 10 10;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5);
+
+}
+#myHbox3{
+    -fx-background-radius: 0 0 10 10;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5);
+
+}

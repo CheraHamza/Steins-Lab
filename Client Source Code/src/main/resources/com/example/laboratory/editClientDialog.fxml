@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefHeight="270.0" prefWidth="250.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratory.EditClientDialog">
+   <header>
+      <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="220.0" prefWidth="270.0" spacing="10" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="83.0" layoutY="67.0" style="-fx-font-size: 25; -fx-font-weight: bold;" text="Edit User" />
+            <VBox layoutX="88.0" layoutY="120.0" prefHeight="156.0" prefWidth="191.0" spacing="20.0">
+               <children>
+                  <TextField fx:id="nom" />
+                  <TextField fx:id="prenom" />
+                  <TextField fx:id="username" />
+                  <TextField fx:id="password" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </header>
+</DialogPane>
