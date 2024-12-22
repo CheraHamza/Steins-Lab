@@ -3,7 +3,7 @@
 ## Description
 
 Stein's Lab is a desktop application for the management of medical analysis laboratories (e.g blood work analysis).
-The develepment of this application was part of my graduation project for a bachelor's degree based in [The University Of Jijel] (https://univ-jijel.dz/index.php/en/)
+The develepment of this application was part of my graduation project for a bachelor's degree based in [The University Of Jijel](https://univ-jijel.dz/index.php/en/)
 
 ![Main Interface](Developement%20Report/Latex%20Source/media/interface/main.png)
 
